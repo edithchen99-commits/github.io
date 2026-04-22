@@ -1,0 +1,463 @@
+驗證自己的觀念
+
+課程資料
+https://drive.google.com/drive/u/0/folders/163PXuqow3Coe729o-B1Jv3m8S585GIR5
+
+google meet
+https://meet.google.com/zfn-crsg-mdr?pli=1
+
+** 是課程重點
+‼️‼️ = 重點
+
+🧲 03/31 HTML, CSS初探  (切版教學)
+老師：一鹿狂飆
+ 總結
+● 前端是做什麼的說明
+● 檔案、副檔案的重要性
+● 前端工具 VSCode 教學
+● 網頁架構說明
+● Chrome 開發工具教學
+● HTML 教學
+● CSS 教學
+● float + clear 用法可以使版面靈活運用
+● 課堂作業是精華
+課程重點
+● ** float 及 clear 搭配使版面更靈活
+● 前端，使用者互動、特效、工具鏈
+● html, css基礎教學、基礎實作
+● 副檔名，系統辨識用、怕使用者改到預設是隱藏
+● VSCode安裝教學與實作應用
+● Chrome開發工具教學
+● 網頁切版架構教學
+
+
+🧲 04/01 
+總結，老師：一鹿狂飆
+● 3/31 課後作業講解
+● HTML地圖、影片嵌入教學
+● HTML圖片標籤教學
+● VSCode課程資料夾建立教學
+● CSS border 教學
+● HTML pre 教學
+● 就業市場趨勢分祈
+課程重點，老師：一鹿狂飆
+● 圖片，只能控制高或寬防止圖片變成
+● VSCode 課程資料夾依日期建立
+● border 會有面積變大的效果
+● border inset立體感
+就業市場趨勢分祈課程，老師：詹介珉
+● 數位方塊,地獄貓工作室 負責人 詹介珉，很在乎中國用語、做正確的事、專題企業命題、對專業要有愛很多專業要一直成長
+● iCAP 職能發展應用中心
+  google官方證照
+  TimeTree
+  要紀錄每天實作+思考時間
+  W3C
+  情境思考
+  作業流程(系統思考) Operational Tihinking -> 情境
+  scrum agile
+  slack
+  discord
+  notion
+  HackMD 共享知識庫
+  資通安全法 (xmind不能用是因爲中國製問題，法規規定)
+  本地AI，台股抄底
+  gitmind，ai心智圖
+  miro 多人協作白板 + ai協作
+  axure 雛形
+  正義：一場思辨之旅
+  史諾燈事件
+  figma
+  awwwards 網頁介面收錄評分全世界有名的，版塊設計公司
+  three.js
+  blender 3D開源
+
+
+
+🧲 04/02
+老師：一鹿狂飆
+總結
+● CSS 教學
+● 假文產生器教學
+● boder 課程複習
+● HTML 層級教學
+● Chrome 開發工具教學CSS除錯教學
+● 版面排版教學 margin,float,calc
+● 課堂作業是精華 有多份回家查看
+
+課程重點
+● CSS
+  ** first-letter，偽元素-開頭第一個字母 
+  ** 假文產生器，lorem, lorem3, lorem*3,lorem3*5
+  font-xxx，size,family,weight,style字樣式
+  line-height，行高 (沒單位是倍數)
+  letter-spacing，字元之間的距離  
+  ** text-align，字水平對齊 (分散對齊 justify)
+  text-indent，縮行
+  padding，內距，上+右+下+左, 上+右左+下, 上下+右左
+  ** margin，外距，上下推是重疊的只會其中比較大的值有反應，"統一右及下推"
+  ** margin 與 float(自己浮了起來) 衝突 -> "6.margin-auto.html"
+  calc 計算，保持物件尺寸大小 ->  "7.calc.html"
+  HTML高度預設是0
+  切版範例，"8.percent.html"
+  ** position 教學 重點, position 跟 margin則一使用 (觀念釐清了)
+  ** position 置中 父層50%是田字的50%扣成本身的一半
+  z-index, z=三維的上層(圖層抬高)
+● 補充說明 HTML -> img alt=圖片替代文字, 圖片依容器大小
+  
+
+
+🧲 04/08
+總結
+● 1-percent-wk-1課後作業講解
+● 檢討作業
+● FB切版教學
+● CSS 導覽列固定、背景、邊框進階樣式教學
+● 於VSCode中 查看CSS中的MDN Reference教學
+● SVG Export
+課程重點
+● FB -> Cucumars Lu 
+● SVG Export
+https://chromewebstore.google.com/detail/svg-export/naeaaedieihlkmdajjefioajbbdbdjgp?hl=zh-TW
+● CSS
+  position: fixed; 固定(獨立圖層,預設高度為物件高度須歸0)
+  background-image 背景圖片
+  background-repeat (圖片是否重複顯示)
+  background-size (圖片尺寸, cover, contain)
+  background-position (圖片位置, xy軸)
+  border-bottom-left-radius (邊框左下角)
+  border-bottom-right-radius (邊框右下角)
+  background: linear-gradient 背景漸層色
+  calc 盡量不用因為還是要計算，計算太多會變慢
+● HTML
+&nbsp; 增加一個空白
+
+
+
+🧲 04/09
+** 是課程重點
+‼️‼️ = 重點
+總結
+● CSS教學
+    垂直置中
+    在螢幕垂直置中
+    body初始化
+    背景樣式
+    parallax
+    transform
+    opacity 透明度
+    群組選擇器
+    class教學
+    寬度使用 vm 與 % 差異 -> "9-100percent-100vw.html"
+    body要初始化
+課程重點
+● CSS
+    vw, vh -> 螢幕可視範圍寬高與百分比不同
+    ** 垂直置中(在父層) -> padding & height(可視區域 - 物件大小 ➗ 可視區域一半 = 置中了), "2.在螢幕垂直置中.html"
+    body初始化的重要性(因垂直置中會出現scrollbar)
+    parallax -> background-attachment: fixed; 背景固定, 視差滾動(parallax scrolling)
+    ** transform -> 置中 -> 轉化/移動 -> 工程數學, 移動自身一半 -> transform: translate(-50%, -50%), "5-parallax-sample.html"
+    opacity 透明度
+    簡化樣式 -> 群組選擇器 -> "6-parallax-sample-1-簡化.html"
+    class教學 -> "7-class.html"
+
+
+🧲 04/10
+** 是課程重點
+‼️‼️ = 重點
+總結
+● FB切版作業講解 (不用錄影)
+● Chrome開發工具教學 (講解尺寸縮放)
+● ** 視差滾動進階教學
+● ** 特效 (按鈕變色、transform)
+● 超連結應用
+● ** nav建立教學
+● ** go top 跳至頂端列
+● 行內元素
+● 文字陰影 text-shadow
+課程重點
+● ** position 初始化須歸0 (因為網頁會有自己的預設值)，自己會轉成浮動物件 (寬高會依內容大小變動)
+● ** nav 內容對齊 (容器寬高都不能變動) -> 扣除 padding 的大小 -> "parallax進階+超連結.html"
+● ** "parallax進階+超連結.html" 有很多說明要學習
+● mask 遮罩
+● VSCode -> 超連結 -> 路徑正確 -> 出現底線代表可以正常連結
+● VSCode -> a:blank 另外再開新的一頁、=>•目標、空白頁
+● :hover 移至物件
+● ** :active 按下去
+● ** transform: scale(2) 倍數
+● ** transform: rotate(180deg) 旋轉
+● ** transform: scale(2) rotate(180deg) 變大 + 旋轉
+● ** transition 時間
+● cursor: pointer 手指浮標
+●文字修飾 (底線, 刪除線...)
+● 超連結應用 (開錨點, 開網址, 開圖片, 開.html的檔案, 下載檔案)
+● a標籤裡面不能再有a標籤
+● a:link 超連結的預設顏色
+● a:visited 被拜訪過的顏色，有限制樣式
+● 行內元素 span
+● css優先權 .class > span
+● 文字陰影 text-shadow (含中空字 x,y 兩次填滿)
+課程疑問
+● ** parallax不能只用一個mask嗎 -> 有寫在notion了 -> 是使用viewport，把重疊的圖利用卷軸卷上來
+
+🧲 04/13 ========== 還未整理(以下) ==========
+** 是課程重點
+‼️‼️ = 重點
+總結
+● 檢討作業-04-float挑戰題(class版本,禁用position) -> "04-float挑戰題(class版本,禁用position)"
+● 巢狀結構是網頁的基礎，以後寫網頁都是"巢狀結構"
+● flex 彈性容器教學 (flexboxfroggy)
+● VSCode快速建立class及標籤內容 ($數字@從多少開始 -> .box{$@4}*15)
+● flex-grow 把剩餘空間照比例分配
+● 通用選擇器 "*"
+● box-sizing: border-box -> 自動計算 border, padding 的放大效應 -> "11-box-sizing.html"
+● flex-shrink 不被壓縮
+● Chrome開發工具設定螢幕大小教學
+● media-query-媒總查詢
+● css 分離
+● ‼️‼️ 重要 -> "All-flex.html"
+● ‼️‼️ 初始化預設值 -> box-sizing, body -> "All-flex.html"
+● ‼️‼️ 20260413資料夾的課程很重要，要回家練習
+
+課程重點
+● 這週課程會比較重，一定要學好
+● body初始化的重要性
+● flex -> 彈性容器教學網站 (https://flexboxfroggy.com/)
+    之後都用flex，不用float了
+    justify-content（常用） -> "5-flex.html"
+    萬用文字置中 -> "3-flex.html"
+    練習中 -> "7-1-flex-column-課間練習.html"
+    ‼️‼️ column 使用反轉，寬高對齊會改變 -> "7-flex-column.html"
+    ‼️‼️ order -> 更換位置, 手機版時會用到我現在才知道XDD
+● flexboxfroggy 很有用，排版的時候一定會用到
+    第10題超難
+    重點 -> 先對齊再反轉?
+● flex-grow 把剩餘空間照比例分配，分為 1/6, 4/6... -> "9-flex-glow.html"
+ 
+今日上課心得
+flex 彈性容器及 order 可以使 div 有各種排版應用，發現若要學習起來需要花一些時間熟悉
+而flex 在網頁上是最重要的也涉及RWD所以一定要學會
+
+
+🧲 04/14
+** 是課程重點
+‼️‼️ = 重點
+● = 標題
+▪︎ = 小項
+總結
+● css - flex 彈性容器
+● html - 表單元件
+課程重點
+● css - flex 彈性容器
+    有設定大小才有剩餘空間 (有寬度才有剩下的)
+    講解@media 1380px, 768px, 375px (昨天下午課程的延伸)
+    ‼️‼️ RWD作業確認是否完成 -> "1-All-flex.html" -> 主題"野生喵喵怪"
+● css - margin 不要設置了 -> unset
+● html - 表單元件 (form)
+    input
+      類型 (type)
+        ▪︎ 文字 - text
+        ▪︎ 單選 - radio -> name相同單選才會生效
+        ▪︎ 數字 - number -> 最小數字 = min, 最大數字 = max
+        ▪︎ 多選 - checkbox
+        ▪︎ 下拉式選單 - select + option
+        ▪︎ 電子郵件 - email -> 會自行驗證email格式是否正確
+        ▪︎ 密碼 - password -> 不會顯示密碼
+        ▪︎ 按鈕 - button
+            type = reset(清空)
+            type = submit(送出) -> 會觸發form action
+      輸入的值 (value) 
+      提示字 (placeholder) 
+      必填（required）
+    label
+      跳至id指定位置 -> for
+      行內元素 -> 沒有大小, 所以要變成區塊(display: block, inline)
+● html + css - 漢堡條按鈕
+    ‼️‼️ 要記憶的話 -> 用checkbox記憶 -> "4-漢堡條按鈕.html"
+● ‼️‼️ css - position 置中 -> position, left 50%, top 50%, translate -50%
+● css
+    第一個兄弟 "+" -> +label
+    後面兄弟 "~" -> ~.nav-btn-all
+    checkbox -> 被按下去 ":checked"
+    隱藏消失 -> display: none
+    ‼️‼️ 特效有順序需注意 -> 不然RWD會有問題 -> transform
+    跨div -> 一定要用postion
+    超連結 -> a -> 無法訂大小
+● css - 關鍵影格 -> @keyframes
+
+
+🧲 04/15
+** 是課程重點
+‼️‼️ = 重點
+● = 標題
+▪︎ = 小項
+總結
+● 置中改為 ->  display: flex;justify-content: center;align-items: center;
+● 繞著方塊跑 position
+● 繞著圓圈跑 rotate
+● 偽類 -> :hover
+● 偽元素 ::before, ::after -> 在HTML看不到，可是又存在的物件
+● "*" 只對 html 元素通用 -> box-sizing -> "4-偽類與偽元素.html"
+● 三角形 -> border -> "7-三角形.html"
+● CSS 權重
+● ‼️‼️ 單位 px, em = %(根據父層變動) ,rem(根據root變動) -> 突然懂大家為什麼寫rem了，因為可以統一設定
+● h1-h6 em, 無障礙標準
+● hr 水平線
+● box-shadow 物件陰影
+● CSS漸層 (有空研究) https://www.oxxostudio.tw/articles/202008/css-gradient.htm
+● 任意形狀 https://bennettfeely.com/clippy/
+● box-shadow 物件陰影
+● 網頁結構與標籤 nav, header, main, section, footer
+● ul, li -> 無序(符號, image), 有序(數字), 偽元素(::marker)
+● 如何用icon -> i -> fontAsome https://fontawesome.com/ -> 使用cdn 及 fontawesome html icon
+
+課程重點
+● 繞著方塊跑動畫 -> 定位4個角做繞著方塊跑動畫 -> "繞著方塊跑.html"
+● 繞著圓圈跑 -> 定位到物件上邊線中間位置 -> 把物體貼上，轉自身
+● 偽類 -> 描述狀態, 你看不到
+● 偽元素 ("4-偽類與偽元素.html")
+    ▪︎ ::before -> 一定要用 content，才有作用, hover 會跟隨主物件 hover
+    ▪︎ ::after  -> 一定要用 content，才有作用, hover 會跟隨主物件 hover
+● 三角形 -> 邊框顏色依據物件的一半平分，變成三角形了 -> 可以拼成各種三角形
+● ‼️‼️ CSS權重
+    ▪︎ 權重越重，優先順序愈大
+    ▪︎ 優先順序 !important(非不得已使用) > inner-style > ID > class (* 數個) > HTML標籤 (元素) > *
+    ▪︎ 滑鼠移至 class 會顯示權重
+● ‼️‼️ 單位
+    ▪︎ px  絕對單位
+    ▪︎ em = % 相對單位 -> 根據預設(body = 16px)透過倍數，乘以父層px值 -> "10-em-rem.html"
+    ▪︎ rem 相對單位 -> 透過倍數，乘以根元素(:root = html)
+● h1 無障礙標準 -> 每一頁只能有一個h1，而且一定要有h1
+● box-shadow 
+    ▪︎ :10px 10px 5px  50px gray; -> x y 模糊 擴散半徑 color
+    ▪︎ 取消陰影 none 
+    ▪︎ 多重陰影 (10px 10px 5px  50px gray -> 乘以3次及把px越加越大)
+● 網頁結構與標籤
+    ▪︎ nav
+    ▪︎ header -> 可以放入banner
+    ▪︎ main (主要內容)
+    ▪︎ section -> section1, section2...
+    ▪︎ footer
+● ul, li
+    ▪︎ list-style 項目符號樣式
+    ▪︎ 無序(符號, image)
+    ▪︎ 有序(數字)
+    ▪︎ 偽元素(::marker)
+    ▪︎ 水平選單 display: flex -> ul要歸0因為有預設值
+
+
+🧲 04/16
+** 是課程重點
+‼️‼️ = 重點
+● = 標題
+▪︎ = 小項
+總結
+● sass 
+    ▪︎ 安裝
+    ▪︎ 使用教學及路徑設定
+    ▪︎ 結構化
+    ▪︎ 蝴蝶符號 "&"
+    ▪︎ loaing 特效 "loading.html" -> 4條線交互合起來=轉一圈 + 文字寬度交互顯示
+    ▪︎ 回家作業(漢堡按鈕選單,microsoft, 地球旋轉, 小精靈追球), 自由作業
+課程重點
+● sass
+    ▪︎ 安裝 -> Live Sass Compiler -> 套件點 switch 執行 -> 建立 ".html", ".scss" -> 於".scss"檔案 -> 下方工具列執行 "watch sass"
+    ▪︎ html -> link css -> .css -> 為什麼不能用 .scss ?
+    ▪︎ 自動產的檔案刪除沒關係，會在自動產
+    ▪︎ sass 是一個css預處理器，它幫你先產生一個css檔案，讓你在執行的時候去把它1ink進來
+    ▪︎ 放入css資料夾 -> Live Sass Compiler -> 套件點齒輪 -> settings -> Live Sass Compile › 
+        Settings: Formats -> edit...json -> 
+        "liveSassCompile.settings.formats" -> 修改路徑 "savePath": "/css"
+    ▪︎ 使用sass需依專案開啟不然路徑設定會跑掉
+    ▪︎ 結構化（物件歸納整理） -> css可以寫在body裡面 -> "teach-1.scss"
+    ▪︎ 蝴蝶符號 "&" -> 代表自己 = &:hover = .box-1:hover
+    ▪︎ animation 動畫 -> timing-function 等速
+        各動畫意思 animation: name duration timing-function delay iteration-count direction fill-mode;
+
+
+🧲 04/20
+** 是課程重點
+‼️‼️ = 重點
+● = 標題
+▪︎ = 小項
+總結
+● ‼️‼️ gap.html -> gap 自己畫格子
+● ‼️‼️ flex與grid.html -> css幫我畫格子
+● 語意化標籤 (命名)
+● microsoft 切版
+● picture換圖 -> 跟我想的不一樣, 以前沒用過 (html -> picture + media + srcset), srcset 與 src 關係 -> 3-picture換圖.html
+● vertical-align: bottom -> 把圖片對著底部
+● flex 轉向成垂直 -> 對齊？
+● (a>li{test})*6
+● 今日microsoft進度 -> 顏色切版完成 -> 查看老師範例
+● 套件的link要在自己上面不然會被蓋掉
+● 改掉我的壞習慣 -> 可以使結構更清晰
+    可以用flex用flex不要用padding或margin
+    可以用 ul+li 用 ul+li
+    學習正確的寫法中，有點艱難
+● menu 練習
+● ‼️‼️ outline 輪廓 -> border 外面
+● ‼️‼️ outline-offset 輪廓位置
+● ‼️‼️ :focus 焦點 (滑鼠移走還在) -> 現在滑鼠的目標是在他上面 -> 公家機關 無障礙會用到
+● ‼️‼️ tabindex 可以製造focus
+課程重點
+● gap 需加深了解聽了有疑問，gap與物件關係 -> 掉下來的原因
+● flex與 grid -> 1fr, 2fr (等份) -> 研究 grid (w3c css grid)
+● grid 固定格子, flex填滿剩餘空間 -> 兩者的差異是?
+● gap 與 justify-content 是相同的？
+
+
+🧲 04/21
+** 是課程重點
+‼️‼️ = 重點
+● = 標題
+▪︎ = 小項
+總結
+● menu 練習 -> 延續昨天 (實作 menu)
+● microsoft切版教學 -> 延續昨天 -> menu, menu rwd
+● 作業 04/25 要交一版
+課程重點
+● 
+
+
+🧲 04/22
+** 是課程重點
+‼️‼️ = 重點
+● = 標題
+▪︎ = 小項
+總結
+● 介紹前端網路網頁歷史 (HTML..)
+● 介紹後端運作原理
+● 104 Front End
+● 開源 open source
+● 網頁(HTML,CSS..)與軟體語言(C,Java..)
+● IDE (如VScode..)
+● API
+● AI 通識課程
+    ▪︎ 為達到你的目的不擇手段 -> 如盜刷別人的信用卡
+    ▪︎ 話要說清楚，如人跟人溝通的方式 (主管交代問題是會問清楚)
+    ▪︎ prompt 重點 -> 角色-希望AI扮演誰,任務-要它做什麼 ,情境-背景和限制條件 ,格式-要什麼形式
+        角色- 你是一位前端工程師
+        任務- 幫我寫一個css flexbox 的卡片排版
+        情境- 一排三張，RWD，手機一排一張
+        格式- 我要完整HTML、CSS的檔案
+    ▪︎ 寫程式碼可直接用嗎？ -> AI 初稿 -> 你的工作"審稿和修改" -> 問完再驗證，進步的比別人快
+        大部分時候可以跑，可能有小錯
+    ▪︎ ‼️‼️ 懂專業術語很重要、有能力修改很重要 -> 基礎能力越強使用AI會倍增
+    ▪︎ ‼️‼️ 當夥伴(學習, 工作) -> 概念(css postion)、範例(怎麼運作)、改進(優化code)
+    ▪︎ ‼️‼️ 保持好奇 AI工具每週都在更新 跟上他保持優勢
+    ▪︎ 人要保持閱讀很重要，培養專業素養及知識
+● 性平課程
+課程重點
+● 
+
+
+🧲 04/tt
+** 是課程重點
+‼️‼️ = 重點
+● = 標題
+▪︎ = 小項
+總結
+● 
+課程重點
+● 
+
