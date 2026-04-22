@@ -1,0 +1,45 @@
+/* ============ 超連結按鈕 ============ */
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* 黑框連結按鈕 */
+.link-black-btn span {
+    color: #262626;
+}
+
+.link-black-btn:focus {
+    outline: 2px dashed #262626;
+    outline-offset: -2px;
+}
+
+.link-black-btn:hover span {
+    border-bottom: 2px solid black;
+}
+
+/* 藍底白框按鈕 */
+.blue-btn {
+    background-color: #0067b8;
+    padding: 10px 12px;
+    color: white;
+}
+
+.blue-btn:focus {
+    outline: 2px dashed white;
+    outline-offset: -4px;
+}
+
+
+/* 藍框連結按鈕 */
+.link-blue-btn {
+    text-decoration: underline;
+    color: #0067b8;
+    font-weight: 600;
+}
+
+.link-blue-btn:focus {
+    outline: 2px dashed #0067b8;
+    outline-offset: -2px;
+}
