@@ -70,6 +70,16 @@ ul {
   display: flex;
 }
 
+.text-lg-h2 {
+  font-size: 1.8125rem;
+  font-weight: 600;
+  line-height: 1.2;
+
+  padding: unset;
+  margin: unset;
+  margin-bottom: 1rem;
+}
+
 /* ============ 客製化樣式: nav ============ */
 nav.container-normal {
   margin-bottom: 2px;
@@ -221,28 +231,40 @@ main .four-card .one-card .one-card-footer {
   padding: 24px;
 }
 
-main .four-card .one-card .one-card-body h2 {
-  font-size: 1.8125rem;
-  font-weight: 600;
-  line-height: 1.2;
-
-  padding: unset;
-  margin: unset;
-  margin-bottom: 1rem;
-}
-
 main .four-card .one-card .one-card-footer {
   /* 移除重疊的padding */
   padding-top: 0;
 }
 
 main .four-card .one-card .one-card-footer .surface-laptop-btn {
+  text-decoration: unset;
   margin-top: 16px;
 }
 
 main .big-img {
   width: 100%;
   margin-bottom: 6rem;
+
+  position: relative;
+}
+
+main .big-img .microsoft-edge {
+  width: 90%;
+  max-width: 370px;
+  padding: 3rem;
+
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 .1875rem .4375rem 0 rgba(0, 0, 0, .13), 0 .0625rem .125rem 0 rgba(0, 0, 0, .11);
+
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+}
+
+main .big-img .microsoft-edge .blue-btn {
+  margin-top: 1.5rem;
 }
 
 main .others {
@@ -338,7 +360,7 @@ footer .horizon-nav li {
   display: inline-block;
 }
 
-.go-top:hover {
+.go-top>a:hover {
   background-color: white;
   box-shadow: 0 .125rem .25rem 0 rgba(0, 0, 0, .13), 0 0 .0625rem 0 rgba(0, 0, 0, .11);
 }
