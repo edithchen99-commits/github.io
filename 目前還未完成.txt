@@ -2,5 +2,6 @@
 
 所有 Microsoft的選單項目
 超連結的連結放入
-
 960px 之後 nav 變成more
+footer 最後一項靠右 (913px)
+RWD max-width: 540px

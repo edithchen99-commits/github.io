@@ -54,11 +54,13 @@
         margin: auto;
         max-width: 97%;
         height: 247px;
+
+        background-color: white;
+        box-shadow: 0 .1875rem .4375rem 0 rgba(0, 0, 0, .13), 0 .0625rem .125rem 0 rgba(0, 0, 0, .11);
+
         left: 50%;
         top: calc(100% - 50px);
         transform: translateX(-50%);
-        background-color: white;
-        box-shadow: 0 .1875rem .4375rem 0 rgba(0, 0, 0, .13), 0 .0625rem .125rem 0 rgba(0, 0, 0, .11);
     }
 
 
@@ -107,6 +109,69 @@
     }
 }
 
-@media (max-width: 860px) {}
+@media (max-width: 860px) {
+
+    /* ============ 共用樣式 ============ */
+    .container-normal {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    /* ============ 客製化樣式: header ============ */
+    header.container-full .picture-box {
+        margin-bottom: unset;
+    }
+
+    header.container-full .picture-box .text {
+        margin: unset;
+        max-width: 100%;
+        height: auto;
+
+        position: relative;
+        left: unset;
+        top: unset;
+        transform: unset;
+
+        padding: 24px;
+    }
+
+    /* ============ 客製化樣式: main  ============ */
+    main .three-choice {
+        margin-bottom: 1rem;
+    }
+
+    main .four-card .one-card {
+
+        /* gap 不會被壓縮 */
+        gap: 12px;
+    }
+
+    main .four-card .one-card {
+        /* 並排2張卡片平分，扣除 gap */
+        flex: 0 0 calc(100% / 2 - 12px);
+    }
+
+    main .big-img {
+        margin-bottom: unset;
+        padding-bottom: 3rem;
+    }
+
+    main .big-img .microsoft-edge-card {
+        display: unset;
+        padding: unset;
+        height: auto;
+
+        position: relative;
+        left: unset;
+        top: unset;
+        transform: unset;
+    }
+
+    main .big-img .microsoft-edge {
+        padding: 3rem .75rem;
+        box-shadow: unset
+    }
+
+}
 
 @media (max-width: 540px) {}
