@@ -174,4 +174,40 @@
 
 }
 
-@media (max-width: 540px) {}
+@media (max-width: 767px) {
+    footer .horizon-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer .horizon-nav ul {
+        flex-wrap: wrap;
+        gap: 6px 24px;
+    }
+
+    footer .horizon-nav {
+        gap: 14px;
+    }
+
+    footer .horizon-nav ul.language {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    footer .horizon-nav li {
+        padding: unset;
+    }
+}
+
+@media (max-width: 540px) {
+
+    /* ============ 客製化樣式: main  ============ */
+    main .four-card .one-card {
+        flex: 0 0 100%;
+    }
+
+    /* ============ 客製化樣式: footer  ============ */
+    footer .footer-menu {
+        flex-direction: column;
+    }
+}
