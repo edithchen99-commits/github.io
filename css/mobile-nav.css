@@ -11,10 +11,8 @@ nav .mobile-menu {
 
 /* ============ 客製化樣式: drop-down-menu ============ */
 nav .mobile-menu ul.drop-down-menu {
-  display: none;
-
   background-color: #f2f2f2;
-  width: 100vw;
+  width: 100%;
 
   position: absolute;
   top: calc(54px + 2px);
@@ -22,17 +20,51 @@ nav .mobile-menu ul.drop-down-menu {
   z-index: 9
 }
 
+/* 預設隱藏 下拉選單 */
+nav .mobile-menu ul.drop-down-menu,
+nav .mobile-menu ul.drop-down-sub-menu {
+  display: none;
+}
+
+nav .mobile-menu ul.drop-down-menu li {
+  border-bottom: 1px solid #e6e6e6;
+}
+
 nav .mobile-menu ul.drop-down-menu li a {
+  justify-content: flex-start;
+}
+
+nav .mobile-menu ul.drop-down-menu li a,
+nav .mobile-menu ul.drop-down-menu li label {
   padding: 12px 8px 13px 15px;
   font-size: 15px;
+}
 
-  justify-content: flex-start;
+nav .mobile-menu ul.drop-down-menu li .drop-down-btn {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .mobile-menu ul.drop-down-sub-menu {
+  padding-left: 20px;
+}
+
+nav .mobile-menu ul.drop-down-sub-menu .link-black-btn:hover,
+nav .mobile-menu ul.drop-down-sub-menu .link-black-btn:focus {
+  background-color: #d9d9d9;
+}
+
+nav .mobile-menu ul.drop-down-sub-menu .link-black-btn:focus span,
+nav .mobile-menu ul.drop-down-sub-menu .link-black-btn:hover span {
+  border-bottom: 1px solid black;
 }
 
 
 /* ============ 客製化樣式: ham-btn ============ */
 .ham-btn {
-  position: relative;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -60,7 +92,6 @@ nav .mobile-menu ul.drop-down-menu li a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 .ham-label .line-1 {
   top: 25%;
@@ -92,9 +123,15 @@ nav .mobile-menu ul.drop-down-menu li a {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-/* 按下去 -> 後面兄弟 "~" */
-#ham-btn-switch:checked~.drop-down-menu {
+/* 開啟 下拉選單 選單 */
+#ham-btn-switch:checked~.drop-down-menu,
+#software-switch-btn:checked~.drop-down-sub-menu {
   display: block;
+}
+
+/* 開啟 "軟題" 選單後 -> 改變箭頭方向  */
+#software-switch-btn:checked~.drop-down-btn i {
+  transform: rotate(-180deg);
 }
 
 @media (max-width: 859px) {

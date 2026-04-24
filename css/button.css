@@ -1,22 +1,33 @@
+:root {
+    --link-black-color: #262626;
+    --outline-color: #262626;
+    --underline-color: #000000;
+}
+
 /* ============ 超連結按鈕 ============ */
 a {
     text-decoration: none;
     display: inline-block;
+
+    /* 因手機版選單有下拉選項，所以要加入 pointer */
+    cursor: pointer;
 }
 
 
 /* 黑框連結按鈕 */
-.link-black-btn span {
-    color: #262626;
+.link-black-btn span,
+.drop-down-btn span {
+    color: var(--link-black-color);
 }
 
-.link-black-btn:focus {
-    outline: 2px dashed #262626;
+.link-black-btn:focus,
+.drop-down-btn:focus {
+    outline: 2px dashed var(--outline-color);
     outline-offset: -2px;
 }
 
 .link-black-btn:hover span {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--underline-color);
 }
 
 /* 藍底白框按鈕 */
