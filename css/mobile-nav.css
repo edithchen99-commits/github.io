@@ -1,0 +1,109 @@
+/* ============ 客製化樣式: mobile-menu ============ */
+nav.container-normal {
+  /* 會使 drop-down-menu 跑版所以改為unset */
+  padding: unset;
+}
+
+nav .mobile-menu {
+  display: none;
+  width: 100%;
+}
+
+/* ============ 客製化樣式: drop-down-menu ============ */
+nav .mobile-menu ul.drop-down-menu {
+  display: none;
+
+  background-color: #f2f2f2;
+  width: 100vw;
+
+  position: absolute;
+  top: calc(54px + 2px);
+  left: 0;
+  z-index: 9
+}
+
+nav .mobile-menu ul.drop-down-menu li a {
+  padding: 12px 8px 13px 15px;
+  font-size: 15px;
+
+  justify-content: flex-start;
+}
+
+
+/* ============ 客製化樣式: ham-btn ============ */
+.ham-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  /* 因 drop-down-menu 會跑版所以改為 ham-btn 加上 padding-left */
+  padding: 0 10px;
+}
+
+.ham-label {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: block;
+  /* xxx yyy -> 空格代表後代, xxx 的後代 yyy  */
+}
+
+.ham-label .line {
+  background-color: #262626;
+  width: 80%;
+  height: 2px;
+  border-radius: 8px;
+
+  /* position 置中 */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.ham-label .line-1 {
+  top: 25%;
+}
+
+.ham-label .line-2 {
+  top: 50%;
+}
+
+.ham-label .line-3 {
+  top: 75%;
+}
+
+/* 移到正中心 -> 旋轉角度 */
+#ham-btn-switch:checked+label .line-1 {
+  top: 50%;
+  /* 要加translate(-50%, -50%)原因為 ".ham-label .line" 有加了 "transform: translate(-50%, -50%)" 會直接被覆蓋, 所以不能直接寫 transform: rotate(45deg) */
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* checkbox 被按下去 -> 第一個兄弟 "+" -> .line-2 -> 消失 */
+#ham-btn-switch:checked+label .line-2 {
+  display: none;
+}
+
+/* 移到正中心 -> 旋轉角度 */
+#ham-btn-switch:checked+label .line-3 {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* 按下去 -> 後面兄弟 "~" */
+#ham-btn-switch:checked~.drop-down-menu {
+  display: block;
+}
+
+@media (max-width: 859px) {
+  nav .mobile-menu {
+    display: block;
+  }
+
+  .ham-btn {
+    display: block;
+  }
+
+}

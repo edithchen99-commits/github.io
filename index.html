@@ -9,22 +9,121 @@
     <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="./css/button.css">
-    <link rel="stylesheet" href="./css/ham-btn.css">
     <link rel="stylesheet" href="./css/microsoft.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/mobile-nav.css">
 </head>
 
 <body>
     <!-- 作業網站: https://www.microsoft.com/zh-tw -->
     <nav class="container-normal">
-        <!-- <div class="ham-btn">
-            <input type="checkbox" id="ham-switch" hidden>
-            <label for="ham-switch" class="ham-label">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line-3"></div>
-            </label>
-        </div> -->
+        <div class="mobile-menu">
+            <div class="horizon-nav">
+                <ul>
+                    <li class="ham-btn">
+                        <input type="checkbox" id="ham-btn-switch" hidden>
+                        <label for="ham-btn-switch" class="ham-label">
+                            <div class="line line-1"></div>
+                            <div class="line line-2"></div>
+                            <div class="line line-3"></div>
+                        </label>
+                        <ul class="drop-down-menu">
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>Microsoft 365</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>Azure</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>Windows</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>Surface</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>Xbox</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>支援</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>軟體</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>個人電腦和設備</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>娛樂</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>商務適用</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>開發人員與 IT</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>其他</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-black-btn" href="">
+                                    <span>檢視網站地圖</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="search">
+                        <a class="link-black-btn" href="">
+                            <span>搜尋</span>
+                            <img src="./img/ms/nav/search.png">
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="logo">
+                        <a class="link-blue-btn" href="">
+                            <img src="./img//ms/logo.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="shoping-cart">
+                        <a class="link-black-btn" href="">
+                            <span>購物車</span>
+                            <img src="./img/ms/nav/shoping-cart.png">
+                        </a>
+                    </li>
+                    <li class="signin">
+                        <a class="signin-btn" href="">
+                            <span>登入</span>
+                            <span class="me">ME</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
         <div class="pc-menu">
             <ul class="horizon-nav">
@@ -84,7 +183,7 @@
                         <img src="./img/ms/nav/shoping-cart.png">
                     </a>
                 </li>
-                <li>
+                <li class="signin">
                     <a class="signin-btn" href="">
                         <span>登入</span>
                         <span class="me">ME</span>
@@ -476,7 +575,7 @@
                 <li>
                     <a class="text-gray" href="">
                         <!-- <img src="./img/ms/footer/privacy.svg"> -->
-                         <img src="./img/ms/footer/vector.png">
+                        <img src="./img/ms/footer/vector.png">
                         <span>您的隱私選擇</span>
                     </a>
                 </li>
