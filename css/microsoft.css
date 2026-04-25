@@ -90,36 +90,70 @@ nav .pc-menu {
   justify-content: space-between;
 }
 
-/* more 按鈕 */
+/* more 按鈕 & 所有 Microsoft 按鈕 */
 nav .pc-menu .more-btn-box {
   position: relative;
 }
 
-nav .pc-menu .more-btn-box .drop-down-sub-menu {
+nav .pc-menu .more-btn-box .drop-down-sub-menu,
+nav .pc-menu .all-btn-box .drop-down-sub-menu {
   background-color: #f2f2f2;
   border-bottom: 2px solid black;
-  min-width: 195px;
+
+  width: 95%;
+  max-width: 1070px;
 
   position: absolute;
-  top: 54px;
-  left: 0;
+  top: calc(54px + 2px);
   z-index: 10;
 }
 
-/* 預設 -> 隱藏 more 按鈕 */
+nav .pc-menu .more-btn-box .drop-down-sub-menu {
+  min-width: 195px;
+  left: 0;
+}
+
+nav .pc-menu .all-btn-box .drop-down-sub-menu {
+  right: 0;
+}
+
+nav .pc-menu .all-btn-box .drop-down-sub-menu-card {
+  padding: 10px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px
+}
+
+nav .pc-menu .all-btn-box .drop-down-sub-menu-card ul {
+  /* flex: 0 0 calc(100% / 4 - 24px); */
+  flex-direction: column;
+}
+
+nav .pc-menu .all-btn-box .drop-down-sub-menu-card h3,
+nav .pc-menu .all-btn-box .drop-down-sub-menu-card li a {
+  margin: unset;
+  padding: 12px;
+  height: auto;
+  font-size: 13px;
+}
+
+/* 預設 -> 隱藏 more 按鈕 & 所有 Microsoft 按鈕 */
 nav .pc-menu .more-btn-box,
 nav .pc-menu .more-btn-box .drop-down-sub-menu,
+nav .pc-menu .all-btn-box .drop-down-sub-menu,
 nav .pc-menu .more-btn-box .drop-down-sub-menu .sub-support,
 nav .pc-menu .more-btn-box .drop-down-sub-menu .sub-xbox,
 nav .pc-menu .more-btn-box .drop-down-sub-menu .sub-surface {
   display: none;
 }
 
-nav .pc-menu .more-btn-box .drop-down-sub-menu a {
+nav .pc-menu .more-btn-box .drop-down-sub-menu a,
+nav .pc-menu .all-btn-box .drop-down-sub-menu a {
   justify-content: flex-start;
 }
 
-#more-switch-btn:checked~.drop-down-sub-menu {
+#more-switch-btn:checked~.drop-down-sub-menu,
+#all-switch-btn:checked~.drop-down-sub-menu {
   display: block;
 }
 
@@ -180,7 +214,6 @@ nav li .signin-btn .me {
 header.container-full {
   width: 100%;
   margin-bottom: 4rem;
-
 }
 
 header.container-full .picture-box {
@@ -476,6 +509,15 @@ footer .horizon-nav li {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 1120px) {
+  nav .pc-menu .all-btn-box .drop-down-sub-menu {
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%);
+
   }
 }
 
