@@ -73,6 +73,11 @@ nav .mobile-menu ul.drop-down-sub-menu .link-black-btn:hover span {
   padding: 0 10px;
 }
 
+.ham-btn:focus {
+  outline: .1875rem dotted #262626;
+  outline-offset: -.375rem;
+}
+
 .ham-label {
   width: 20px;
   height: 20px;

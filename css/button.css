@@ -22,12 +22,26 @@ a {
 
 .link-black-btn:focus,
 .drop-down-btn:focus {
-    outline: 2px dashed var(--outline-color);
-    outline-offset: -2px;
+    outline: .1875rem dotted var(--outline-color);
+    outline-offset: -.375rem;
 }
 
 .link-black-btn:hover span {
     border-bottom: 2px solid var(--underline-color);
+}
+
+/* 灰框灰字連結按鈕 */
+.link-gray-btn span {
+    color: #616161;
+}
+
+.link-gray-btn:focus {
+    outline: .1875rem dotted #616161;
+    outline-offset: 2px;
+}
+
+.link-gray-btn:hover span {
+    border-bottom: 1px solid #616161;
 }
 
 /* 藍底白框按鈕 */
@@ -38,8 +52,8 @@ a {
 }
 
 .blue-btn:focus {
-    outline: 2px dashed white;
-    outline-offset: -4px;
+    outline: .1875rem dotted white;
+    outline-offset: -.375rem;
 }
 
 
@@ -51,6 +65,6 @@ a {
 }
 
 .link-blue-btn:focus {
-    outline: 2px dashed #0067b8;
-    outline-offset: -2px;
+    outline: .1875rem dotted #0067b8;
+    outline-offset: 1px;
 }
