@@ -125,12 +125,22 @@ nav .mobile-menu ul.drop-down-sub-menu .link-black-btn:hover span {
 
 /* 開啟 下拉選單 選單 */
 #ham-btn-switch:checked~.drop-down-menu,
-#software-switch-btn:checked~.drop-down-sub-menu {
+#software-switch-btn:checked~.drop-down-sub-menu,
+#devices-switch-btn:checked~.drop-down-sub-menu,
+#fun-switch-btn:checked~.drop-down-sub-menu,
+#business-switch-btn:checked~.drop-down-sub-menu,
+#it-switch-btn:checked~.drop-down-sub-menu,
+#other-switch-btn:checked~.drop-down-sub-menu {
   display: block;
 }
 
 /* 開啟 "軟題" 選單後 -> 改變箭頭方向  */
-#software-switch-btn:checked~.drop-down-btn i {
+#software-switch-btn:checked~.drop-down-btn i,
+#devices-switch-btn:checked~.drop-down-btn i,
+#fun-switch-btn:checked~.drop-down-btn i,
+#business-switch-btn:checked~.drop-down-btn i,
+#it-switch-btn:checked~.drop-down-btn i,
+#other-switch-btn:checked~.drop-down-btn i {
   transform: rotate(-180deg);
 }
 
