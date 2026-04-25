@@ -355,6 +355,7 @@ footer .horizon-nav {
 
 footer .horizon-nav ul {
   gap: 12px;
+  align-items: center;
 }
 
 footer .horizon-nav li {
