@@ -78,7 +78,8 @@ nav.container-normal {
 }
 
 nav.container-normal,
-nav li a {
+nav li a,
+nav li .link-black-btn {
   /* nav 共用 高度 樣式 */
   height: 54px;
 }
@@ -89,7 +90,41 @@ nav .pc-menu {
   justify-content: space-between;
 }
 
-nav li a {
+/* more 按鈕 */
+nav .pc-menu .more-btn-box {
+  position: relative;
+}
+
+nav .pc-menu .more-btn-box .drop-down-sub-menu {
+  background-color: #f2f2f2;
+  border-bottom: 2px solid black;
+  min-width: 195px;
+
+  position: absolute;
+  top: 54px;
+  left: 0;
+  z-index: 10;
+}
+
+/* 預設 -> 隱藏 more 按鈕 */
+nav .pc-menu .more-btn-box,
+nav .pc-menu .more-btn-box .drop-down-sub-menu,
+nav .pc-menu .more-btn-box .drop-down-sub-menu .sub-support,
+nav .pc-menu .more-btn-box .drop-down-sub-menu .sub-xbox,
+nav .pc-menu .more-btn-box .drop-down-sub-menu .sub-surface {
+  display: none;
+}
+
+nav .pc-menu .more-btn-box .drop-down-sub-menu a {
+  justify-content: flex-start;
+}
+
+#more-switch-btn:checked~.drop-down-sub-menu {
+  display: block;
+}
+
+nav li a,
+nav li .link-black-btn {
   padding: 0 10px;
   font-size: 13px;
   color: #262626;
@@ -520,6 +555,46 @@ footer .horizon-nav li {
   footer .footer-menu ul {
     /* 並排 3 個 ul ，扣除 gap */
     flex: 0 0 calc(100% / 3 - 24px);
+  }
+}
+
+@media (max-width: 969px) {
+
+  /* 隱藏 nav 的支援按鈕 */
+  nav .pc-menu li.support {
+    display: none;
+  }
+
+  /* 開啟 more 按鈕 及 下拉選單的 支援按鈕 */
+  nav .pc-menu .more-btn-box,
+  nav .pc-menu .more-btn-box .drop-down-sub-menu .sub-support {
+    display: block;
+  }
+}
+
+@media (max-width: 927px) {
+
+  /* 隱藏 nav 的 xbox按鈕 */
+  nav .pc-menu li.xbox {
+    display: none;
+  }
+
+  /* 開啟 下拉選單的 xbox按鈕 */
+  nav .pc-menu .more-btn-box .drop-down-sub-menu .sub-xbox {
+    display: block;
+  }
+}
+
+@media (max-width: 882px) {
+
+  /* 隱藏 nav 的 surface按鈕 */
+  nav .pc-menu li.surface {
+    display: none;
+  }
+
+  /* 開啟 下拉選單的 surface按鈕 */
+  nav .pc-menu .more-btn-box .drop-down-sub-menu .sub-surface {
+    display: block;
   }
 }
 
